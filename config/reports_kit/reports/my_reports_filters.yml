@@ -1,0 +1,23 @@
+measure:
+  key: books_user
+  name: books user
+filters:
+#  - key: book
+#    criteria:
+#      operator: contains
+#      value: Many
+  - key: user_id
+#    criteria:
+#      operator: "="
+#      value: 1
+#  - key: user_id
+    criteria:
+      operator: "="
+      value: 7
+
+dimensions:
+#  - user
+  - book
+#  - genre
+#  - author
+order: dimension1.label asc

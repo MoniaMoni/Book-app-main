@@ -1,0 +1,8 @@
+measure: book
+dimensions:
+#  - year_of_publishment
+#  - created_at
+  - genre
+  - key: created_at
+    granularity: day
+order: dimension1.label asc

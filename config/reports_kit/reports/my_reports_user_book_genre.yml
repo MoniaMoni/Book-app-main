@@ -1,0 +1,31 @@
+measure: books_user
+filters:
+  #  - key: book
+  #    criteria:
+  #      operator: contains
+  #      value: Many
+  - key: user_id
+    #    criteria:
+    #      operator: "="
+    #      value: 1
+    #  - key: user_id
+    criteria:
+      operator: "="
+      value: 1
+dimensions:
+  #  - created_at
+  - user
+  - key: created_at
+    granularity: day
+
+#  - genre
+
+#  - author
+##chart:
+##  options:
+##    scales:
+##      xAxes:
+##        - stacked: true
+##      yAxes:
+##        - stacked: true
+
